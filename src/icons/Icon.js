@@ -66,7 +66,7 @@ const Icon = props => {
         <IconComponent
           testID="iconIcon"
           style={StyleSheet.flatten([
-            { backgroundColor: 'transparent' },
+            { backgroundColor: 'transparent', bottom: 0},
             iconStyle && iconStyle,
           ])}
           size={size}
